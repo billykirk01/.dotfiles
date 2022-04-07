@@ -36,3 +36,14 @@ diff -urpN a/drivers/net/wireless/broadcom/brcm80211/brcmfmac/pcie.c b/drivers/n
  	{ /* end: all zeroes */ }
  };
  
+diff -urpN a/drivers/net/wireless/broadcom/brcm80211/include/brcm_hw_ids.h b/drivers/net/wireless/broadcom/brcm80211/include/brcm_hw_ids.h
+--- a/drivers/net/wireless/broadcom/brcm80211/include/brcm_hw_ids.h	2022-03-28 03:03:22.000000000 -0500
++++ b/drivers/net/wireless/broadcom/brcm80211/include/brcm_hw_ids.h	2022-04-07 17:49:54.655951554 -0500
+@@ -50,6 +50,7 @@
+ #define BRCM_CC_43664_CHIP_ID		43664
+ #define BRCM_CC_43666_CHIP_ID		43666
+ #define BRCM_CC_4371_CHIP_ID		0x4371
++#define BRCM_CC_4377_CHIP_ID		0x4488
+ #define CY_CC_4373_CHIP_ID		0x4373
+ #define CY_CC_43012_CHIP_ID		43012
+ #define CY_CC_43752_CHIP_ID		43752
