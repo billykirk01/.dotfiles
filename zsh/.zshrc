@@ -124,9 +124,9 @@ rehash_precmd() {
 
 add-zsh-hook -Uz precmd rehash_precmd
 
-# omz
-alias zshconfig="geany ~/.zshrc"
-alias ohmyzsh="thunar ~/.oh-my-zsh"
+# configs
+alias bspwmconfig="vim ~/.config/bspwm/bspwmrc"
+alias sxhkdconfig="vim ~/.config/sxhkd/sxhkdrc"
 
 # git
 alias gcl='git clone --depth 1'
