@@ -141,6 +141,8 @@ alias lt='exa -Tr'
 #alias vim='nvim'
 alias top='htop'
 alias fd='fdfind'
+alias screenoff='xrandr --output eDP1 --off'
+alias screenon='xrandr --output eDP1 --mode 1920x1200'
 
 . ~/.cargo/env
 
